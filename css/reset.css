@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    vertical-align: baseline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* input 개인설정 */
+
+input{
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+input::-webkit-input-placeholder{
+    color: darkred;
+}
+
+
+input::-moz-input-placeholder{
+    color: darkred;
+}/* 맞는 버전에 맞게 바꿔주면 됨 */
+
+/* 웹폰트 설정 */
+
+@font-face{
+    /* 폰트 이름 걸어주기▼ */
+    font-family: "nanum";
+    src:url(../webfont/NanumGothic.woff);
+    /* 폰트 형식이 eot는 저작권에 민감하지만 woff나 ttf는 사용해도 거의 저작권에 위배되지 않음 */
+}
+
+@font-face{
+    font-family: "uhbee";
+    src: url(../webfont/UhBeeSeulvely.woff);
+}
+
+body{
+    font-family: "nanum", "맑은 고딕", Arial, Helvetica, sans-serif;
+    /* 배경이미지 설정▼ */
+    background: url(../images/s_images/body_bg.png);
+}

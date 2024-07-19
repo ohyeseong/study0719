@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>board</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicon/flat-design-touch.png">
+    <link rel="stylesheet" href="css/board.css">
+
+    <!-- 스크립트 작업 -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/toggle_btn.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <section class="info_section">
+            <ul class="info_list">
+                <li><a href="(중요)index.html"><img src="images/s_images/info_icon_01.png" alt="infoico1"></a></li>
+                <li><a href="(중요)introduce.html"><img src="images/s_images/info_icon_02.png" alt="infoico2"></a></li>
+                <li><a href="(중요)gallery.html"><img src="images/s_images/info_icon_03.png" alt="infoico3"></a></li>
+                <li><a href="(중요)board.html"><img src="images/s_images/info_icon_04.png" alt="infoico4"></a></li>
+            </ul><!-- info_list -->
+        </section><!-- info_section -->
+
+        <header class="header">
+            <h1 class="logo"><a href="(중요)index.html">FLAT <br> DESIGN</a></h1>
+
+            <nav class="nav">
+                <ul class="h_menu">
+                    <li><a href="(중요)index.html">홈</a> <span class="sub_menu_toggle_btn">하위메뉴토글버튼</span></li>
+                    <li><a href="(중요)introduce.html">플렛디자인이란</a> <span class="sub_menu_toggle_btn">하위메뉴토글버튼</span></li>
+                    <li><a href="(중요)gallery.html">갤러리란</a> <span class="sub_menu_toggle_btn">하위메뉴토글버튼</span></li>
+                    <li><a href="(중요)board.html">문의사항</a> <span class="sub_menu_toggle_btn">하위메뉴토글버튼</span></li>
+                </ul><!-- h_menu -->
+            </nav><!-- nav -->
+
+            <span class="menu_toggle_btn">전체메뉴 토글 버튼</span>
+        </header><!-- header -->
+
+        <section class="sub_head_section">
+
+            <h2>갤러리</h2>
+
+            <ul class="sub_head_list">
+                <li><a href="(중요)index.html">홈 /</a></li>
+                <li><a href="(중요)board.html">문의사항</a></li>
+            </ul><!-- sub_head_list -->
+
+        </section><!-- sub_head_section -->
+
+        <div class="content_section">
+            <div class="cont_row_1">
+                <table class="board_table">
+                    <caption>문의사항 게시판</caption>
+
+                    <!-- 제목부분 -->
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>글쓴이</th>
+                            <th>조회수</th>
+                        </tr>
+                    </thead>
+
+                    <!-- 내용부분 -->
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>저는 누굴까요?</td>
+                            <td>FLAT DESIGN</td>
+                            <td>22</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>BLOG에서 다양한 정보를 만나보세요</td>
+                            <td>FLAT DESIGN</td>
+                            <td>32</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>FLAT DESIGN은 원색을 강조합니다</td>
+                            <td>FLAT DESIGN</td>
+                            <td>67</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>홈페이지 리뉴얼 소식</td>
+                            <td>FLAT DESIGN</td>
+                            <td>96</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>안녕하세요 홈페이지가 오픈 되었습니다</td>
+                            <td>FLAT DESIGN</td>
+                            <td>123</td>
+                        </tr>
+                    </tbody>
+
+                </table><!-- board_table -->
+            </div><!-- cont_row_1 -->
+
+            <div class="cont_row_2">
+                <div class="search_box">
+                    <form action="#">
+
+                        <input type="text" id="search_window" placeholder="검색어">
+
+                        <div class="search_select_box">
+
+                            <span>검색 대상</span>
+
+                            <ul class="search_select_list">
+                                <li>제목</li>
+                                <li>내용</li>
+                                <li>제목/내용</li>
+                                <li>댓글</li>
+                                <li>이름</li>
+                                <li>닉네임</li>
+                                <li>아이디</li>
+                                <li>태그</li>
+                            </ul><!-- search_select_list -->
+
+                        </div><!-- search_select_box -->
+
+                    </form><!-- form -->
+                </div><!-- search_box -->
+
+                <div class="write_box">
+                    <a href="#">글쓰기</a>
+                </div><!-- write_box -->
+
+            </div><!-- cont_row_2 -->
+
+            <div class="cont_row_3">
+                <span class="list_prev_btn">이전버튼</span>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <span class="list_next_btn">다음버튼</span>
+            </div><!-- cont_row_3 -->
+        </div><!-- content_section -->
+
+        <footer class="footer">
+            <p>copyright&copy; 2024 flat design blog all</p>
+        </footer><!-- footer -->
+    </div>
+</body>
+</html>
